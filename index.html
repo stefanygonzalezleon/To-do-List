@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Shopping List</h1>
+        <input type="text" id="newItem" placeholder="Add item...">
+        <select id="priority">
+          <option value="low">Low Priority</option>
+          <option value="medium">Medium Priority</option>
+          <option value="high">High Priority</option>
+        </select>
+        <input type="url" id="imageURL" placeholder="Image URL...">
+        <button onclick="addItem()">Add Item</button>
+    
+        <ul id="todoList"></ul>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#app {
+    text-align: center;
+}
+  
+h1 {
+    color: #333;
+}
+  
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+  /* Agrega estilos para las prioridades */
+.low-priority {
+    background-color: #b3ffb3; 
+}
+  
+.medium-priority {
+    background-color: #ffcc66; 
+}
+  
+.high-priority {
+    background-color: #ff6666; 
+}
+/* Agrega estilos para tareas completadas */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+  
+    
